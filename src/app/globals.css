@@ -230,6 +230,10 @@ body {
   text-align: left;
   vertical-align: top;
 }
+.md td:not(:first-child),
+.md th:not(:first-child) {
+  min-width: 7.5rem;
+}
 .md th {
   background: var(--panel-2);
   font-weight: 600;

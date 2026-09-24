@@ -407,7 +407,7 @@ export function Studio() {
         ))}
       </nav>
 
-      <main className="flex-1 min-h-0 grid lg:grid-cols-[300px_minmax(0,1fr)_minmax(380px,40%)] xl:grid-cols-[320px_minmax(0,1fr)_minmax(420px,42%)]">
+      <main className="flex-1 min-h-0 grid lg:grid-cols-[290px_minmax(0,1fr)_minmax(360px,38%)] xl:grid-cols-[310px_minmax(0,1fr)_minmax(420px,38%)]">
         {/* Agent rack */}
         <aside className={`${tab === "agent" ? "block" : "hidden"} lg:block min-h-0 overflow-y-auto border-r border-line bg-panel/60 p-4`}>
           <AgentRack agent={agent} templateId={templateId} disabled={busy} onChange={(a) => { setAgent(a); setTemplateId(null); }} onTemplate={pickTemplate} />
